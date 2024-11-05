@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #4aab3d #000;
+}
+
+/* Hide horizontal scrollbar */
+
+.hide__scrollbar {
+    scrollbar-width: none;
+}
+
+.hide__scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+@layer utilities {
+    .pageWrapper {
+        @apply mx-auto max-w-6xl;
+    }
+
+    .miniPageWrapper {
+        @apply mx-auto max-w-5xl;
+    }
+
+    .pageTitle {
+        @apply text-center text-3xl font-semibold sm:text-5xl;
+    }
+
+    .brandTransition {
+        @apply transition duration-300;
+    }
+}
