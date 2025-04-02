@@ -97,7 +97,7 @@ function HeroImage() {
                     </Link>
 
                     {/* Get a quote button */}
-                    <button
+                    {/* <button
                         type='button'
                         className='flex w-fit items-center gap-3 rounded-full bg-brand_color px-6 py-2.5 font-medium text-white shadow-[3px_3px_0px_black] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:bg-brand_color/50 hover:shadow-none'
                         onClick={() =>
@@ -107,7 +107,7 @@ function HeroImage() {
                         }
                     >
                         Play intro video <PlayCircleIcon className='size-7' />
-                    </button>
+                    </button> */}
                 </div>
             </div>
 
